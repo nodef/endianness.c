@@ -1,10 +1,22 @@
 # Description
 
-A one-file public-domain library to determine endianness at compile time.
-Just drop a copy of the header in your source tree, use it and forget about all
+A one-file public-domain library to determine endianness at compile time,
+by [rofl0r](https://github.com/rofl0r). Use it and forget about all
 the platform-specific differences to get that endianess definition!
 
 The usual conversion functions are also provided.
+
+# Installation
+
+Run:
+```bash
+$ npm i endianness.c
+```
+
+And then include `endianness.h` as follows:
+```c
+#include "node_modules/endianness.c/endianness.h"
+```
 
 # Rationale
 
@@ -32,7 +44,7 @@ macros to 0 or 1.
 #endif
 ```
 
-or if the macro is to be used directly from the code, you can even use the nicer
+Or if the macro is to be used directly from the code, you can even use the nicer
 form (taking advantage of dead code elimination done by the compiler):
 
 ```C
@@ -148,3 +160,10 @@ exotic compiler is used, and that one targetting a really exotic architecture.
 If even this pass fails, we're dealing with an exotic compiler, an exotic
 architecture, and an exotic OS - most likely a bare-metal toolchain for
 embedded development.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/endianness.c)
