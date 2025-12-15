@@ -1,0 +1,24 @@
+{
+  "name": "endianness.c",
+  "version": "1.2021.9",
+  "description": "Simple public domain header to get endianess at compile time on a variety of platforms; rofl0r (2017).",
+  "keywords": [
+    "c",
+    "library",
+    "endian",
+    "endianness",
+    "byteorder",
+    "byte-order",
+    "header-only"
+  ],
+  "homepage": "https://github.com/nodef/endianness.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/endianness.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/endianness.c.git"
+  },
+  "license": "CC0-1.0",
+  "main": "endianness.h"
+}
